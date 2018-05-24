@@ -83,6 +83,7 @@ PRODUCT_COPY_FILES += \
     vendor/bq/bardockpro/proprietary/lib/com.qualcomm.qti.imscmservice@1.0.so:system/lib/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/bq/bardockpro/proprietary/lib/lib-imscamera.so:system/lib/lib-imscamera.so \
     vendor/bq/bardockpro/proprietary/lib/lib-imsvideocodec.so:system/lib/lib-imsvideocodec.so \
+    vendor/bq/bardockpro/proprietary/lib/lib-imsvt.so:system/lib/lib-imsvt.so \
     vendor/bq/bardockpro/proprietary/lib/lib-imsvtextutils.so:system/lib/lib-imsvtextutils.so \
     vendor/bq/bardockpro/proprietary/lib/lib-imsvtutils.so:system/lib/lib-imsvtutils.so \
     vendor/bq/bardockpro/proprietary/lib/libGPTEE_system.so:system/lib/libGPTEE_system.so \
@@ -117,6 +118,9 @@ PRODUCT_COPY_FILES += \
     vendor/bq/bardockpro/proprietary/lib/libstagefright_soft_flacdec.so:system/lib/libstagefright_soft_flacdec.so \
     vendor/bq/bardockpro/proprietary/lib/libtrueportrait.so:system/lib/libtrueportrait.so \
     vendor/bq/bardockpro/proprietary/lib/libtruescanner.so:system/lib/libtruescanner.so \
+    vendor/bq/bardockpro/proprietary/lib/libts_detected_face_jni.so:system/lib/libts_detected_face_jni.so \
+    vendor/bq/bardockpro/proprietary/lib/libts_face_beautify_hal.so:system/lib/libts_face_beautify_hal.so \
+    vendor/bq/bardockpro/proprietary/lib/libts_face_beautify_jni.so:system/lib/libts_face_beautify_jni.so \
     vendor/bq/bardockpro/proprietary/lib/libvidhance.so:system/lib/libvidhance.so \
     vendor/bq/bardockpro/proprietary/lib/vendor.display.color@1.0.so:system/lib/vendor.display.color@1.0.so \
     vendor/bq/bardockpro/proprietary/lib/vendor.display.postproc@1.0.so:system/lib/vendor.display.postproc@1.0.so \
@@ -126,9 +130,11 @@ PRODUCT_COPY_FILES += \
     vendor/bq/bardockpro/proprietary/lib/vendor.qti.hardware.qdutils_disp@1.0.so:system/lib/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/bq/bardockpro/proprietary/lib/vendor.qti.hardware.qteeconnector@1.0.so:system/lib/vendor.qti.hardware.qteeconnector@1.0.so \
     vendor/bq/bardockpro/proprietary/lib/vendor.qti.hardware.tui_comm@1.0.so:system/lib/vendor.qti.hardware.tui_comm@1.0.so \
+    vendor/bq/bardockpro/proprietary/lib/vendor.qti.hardware.vpp@1.1.so:system/lib/vendor.qti.hardware.vpp@1.1.so \
     vendor/bq/bardockpro/proprietary/lib64/com.qualcomm.qti.dpm.api@1.0.so:system/lib64/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/bq/bardockpro/proprietary/lib64/com.qualcomm.qti.imscmservice@1.0.so:system/lib64/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/bq/bardockpro/proprietary/lib64/hw/csfingerprint.default.so:system/lib64/hw/csfingerprint.default.so \
+    vendor/bq/bardockpro/proprietary/lib64/hw/fingerprint.default.so:system/lib64/hw/fingerprint.default.so \
     vendor/bq/bardockpro/proprietary/lib64/hw/swfingerprint.default.so:system/lib64/hw/swfingerprint.default.so \
     vendor/bq/bardockpro/proprietary/lib64/lib-imscamera.so:system/lib64/lib-imscamera.so \
     vendor/bq/bardockpro/proprietary/lib64/lib-imsvideocodec.so:system/lib64/lib-imsvideocodec.so \
@@ -137,6 +143,7 @@ PRODUCT_COPY_FILES += \
     vendor/bq/bardockpro/proprietary/lib64/lib-imsvtutils.so:system/lib64/lib-imsvtutils.so \
     vendor/bq/bardockpro/proprietary/lib64/libGPTEE_system.so:system/lib64/libGPTEE_system.so \
     vendor/bq/bardockpro/proprietary/lib64/libQTEEConnector_system.so:system/lib64/libQTEEConnector_system.so \
+    vendor/bq/bardockpro/proprietary/lib64/libclearsight.so:system/lib64/libclearsight.so \
     vendor/bq/bardockpro/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
     vendor/bq/bardockpro/proprietary/lib64/libdpmctmgr.so:system/lib64/libdpmctmgr.so \
     vendor/bq/bardockpro/proprietary/lib64/libdpmfdmgr.so:system/lib64/libdpmfdmgr.so \
@@ -165,6 +172,10 @@ PRODUCT_COPY_FILES += \
     vendor/bq/bardockpro/proprietary/vendor/lib64/libsd_sdk_display.so:system/vendor/lib64/libsd_sdk_display.so \
     vendor/bq/bardockpro/proprietary/vendor/lib64/libsdm-disp-apis.so:system/vendor/lib64/libsdm-disp-apis.so \
     vendor/bq/bardockpro/proprietary/lib64/libtrueportrait.so:system/lib64/libtrueportrait.so \
+    vendor/bq/bardockpro/proprietary/lib64/libtruescanner.so:system/lib64/libtruescanner.so \
+    vendor/bq/bardockpro/proprietary/lib64/libts_detected_face_jni.so:system/lib64/libts_detected_face_jni.so \
+    vendor/bq/bardockpro/proprietary/lib64/libts_face_beautify_hal.so:system/lib64/libts_face_beautify_hal.so \
+    vendor/bq/bardockpro/proprietary/lib64/libts_face_beautify_jni.so:system/lib64/libts_face_beautify_jni.so \
     vendor/bq/bardockpro/proprietary/lib64/vendor.display.color@1.0.so:system/lib64/vendor.display.color@1.0.so \
     vendor/bq/bardockpro/proprietary/lib64/vendor.display.postproc@1.0.so:system/lib64/vendor.display.postproc@1.0.so \
     vendor/bq/bardockpro/proprietary/lib64/vendor.nxp.nxpnfc@1.0.so:system/lib64/vendor.nxp.nxpnfc@1.0.so \
@@ -174,6 +185,7 @@ PRODUCT_COPY_FILES += \
     vendor/bq/bardockpro/proprietary/lib64/vendor.qti.hardware.qdutils_disp@1.0.so:system/lib64/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/bq/bardockpro/proprietary/lib64/vendor.qti.hardware.qteeconnector@1.0.so:system/lib64/vendor.qti.hardware.qteeconnector@1.0.so \
     vendor/bq/bardockpro/proprietary/lib64/vendor.qti.hardware.tui_comm@1.0.so:system/lib64/vendor.qti.hardware.tui_comm@1.0.so \
+    vendor/bq/bardockpro/proprietary/lib64/vendor.qti.hardware.vpp@1.1.so:system/lib64/vendor.qti.hardware.vpp@1.1.so \
     vendor/bq/bardockpro/proprietary/vendor/bin/ATFWD-daemon:system/vendor/bin/ATFWD-daemon \
     vendor/bq/bardockpro/proprietary/vendor/bin/DR_AP_Service:system/vendor/bin/DR_AP_Service \
     vendor/bq/bardockpro/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
@@ -739,6 +751,7 @@ PRODUCT_COPY_FILES += \
     vendor/bq/bardockpro/proprietary/vendor/lib/vendor.qti.hardware.radio.uim_remote_client@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.radio.uim_remote_client@1.0_vendor.so \
     vendor/bq/bardockpro/proprietary/vendor/lib/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so \
     vendor/bq/bardockpro/proprietary/vendor/lib/vendor.qti.hardware.tui_comm@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.tui_comm@1.0_vendor.so \
+    vendor/bq/bardockpro/proprietary/vendor/lib/vendor.qti.hardware.vpp@1.1_vendor.so:system/vendor/lib/vendor.qti.hardware.vpp@1.1_vendor.so \
     vendor/bq/bardockpro/proprietary/vendor/lib/vendor.qti.voiceprint@1.0.so:system/vendor/lib/vendor.qti.voiceprint@1.0.so \
     vendor/bq/bardockpro/proprietary/vendor/lib64/com.qualcomm.qti.dpm.api@1.0_vendor.so:system/vendor/lib64/com.qualcomm.qti.dpm.api@1.0_vendor.so \
     vendor/bq/bardockpro/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@1.0_vendor.so:system/vendor/lib64/com.qualcomm.qti.imscmservice@1.0_vendor.so \
@@ -949,6 +962,7 @@ PRODUCT_COPY_FILES += \
     vendor/bq/bardockpro/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0_vendor.so \
     vendor/bq/bardockpro/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so \
     vendor/bq/bardockpro/proprietary/vendor/lib64/vendor.qti.hardware.tui_comm@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.tui_comm@1.0_vendor.so \
+    vendor/bq/bardockpro/proprietary/vendor/lib64/vendor.qti.hardware.vpp@1.1_vendor.so:system/vendor/lib64/vendor.qti.hardware.vpp@1.1_vendor.so \
     vendor/bq/bardockpro/proprietary/vendor/lib64/vendor.qti.voiceprint@1.0.so:system/vendor/lib64/vendor.qti.voiceprint@1.0.so \
     vendor/bq/bardockpro/proprietary/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
     vendor/bq/bardockpro/proprietary/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd \
